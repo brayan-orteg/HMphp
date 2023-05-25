@@ -1,1 +1,55 @@
 
+Sistemas de control de versiones VCS 
+
+Git 
+Es una herramienta de control de versiones mas popular y una de las mejores opciones para usuarios esperimentados con perfil tecnico.
+Ventajas 
+-Naturaleza distribuida que permite a los miembros de un proyecto acceder al repositorio desde distintas redes locales.
+-Rapidez y eficacia. 
+-Generacion de ramas sencilla.
+-Buen rendimiento, tanto en grandes como en pequeños proyectos. 
+Desventajas
+-Curva de aprendizaje mas lenta que la mayoria de las herramientas de control de versiones, pues requiere el uso de comandos y un 
+elevado conocimieto del sistema para exprimir todas sus funcionalidades. 
+
+SVN
+A diferencia de Git, se basa en una arquitectura cliente-servidor. Presenta algunas funcionalidades interesantes, como versiones de enlaces 
+simbolicos, soporte para directorios vacios y registros de operaciones de copiar, mover, borrar y renombrar. Un gran sistema para 
+windows y proyectos queno requieran acceso distribuido. 
+Ventajas
+-Facil de configurar y administrar.
+-Muy buen soporte para windows.
+-Integracion excelente con los principales IDE y las herramientas agiles. 
+Desventajas
+-Al basarse en una arquitectura Cliente-Servidor, todas las versiones deben almacenarse en el mismo lugar.
+-Generacion de ramas mas compleja.
+-Repositorio mas pesados.
+-Sin informacion sobre la hora de modificarcion de los archivos. 
+-Sin soporte para versiones firmadas.
+
+Mercurial
+Es igual que Git, un sistema de control de versiones distribuido ideal para usuarios poco experimentados o perfiles poco tecnicos. 
+Ventajas
+-Intuitivo y sencillo de manejar, con una curva de aprendizaje mucho mas corta. 
+-Veloz, potente y ligero.
+-Manejo solido de archivos de texto plano y, tambien, binarios.
+Desventajas
+-No sosporta revisiones firmadas, como SVN
+-Poco soporte para el control de codigo fuente distribuido.
+-No contempla checkouts ni commits atomicos. 
+
+
+Monotone
+Es una herramienta de control de versiones distribuida de codigo abierto que puede integrarse en multitud de sistemas operativos. Prima la 
+integridad ante el rendimiento, emplea tecnicas criptograficas para rastrear las versiones y autenticaciones de archivos, puede importar 
+proyectos CVS y utilizar el protocolo netsync.
+Ventajas
+-Excelente funcionamiento de la ranificacion. 
+-Buena documentacion oficial.
+-Requiere poco mantenimiento.
+-Sencillo con una curva de aprendizaje contra interfaz grafica intuitiva. 
+Desventajas
+-Problemas de rendimiento en algunas operaciones.
+-No permite hacer checkout ni commint detras del proxy.
+
+
